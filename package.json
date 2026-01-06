@@ -1,0 +1,46 @@
+{
+  "name": "perfect-toast",
+  "version": "0.1.0",
+  "description": "A Perfect Dark-inspired toast notification library with directional fade animations",
+  "type": "module",
+  "main": "./dist/perfect-toast.umd.cjs",
+  "module": "./dist/perfect-toast.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/perfect-toast.js",
+      "require": "./dist/perfect-toast.umd.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "toast",
+    "notification",
+    "perfect-dark",
+    "animation",
+    "vanilla-js"
+  ],
+  "author": "Michael Kirsanov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lofimichael/perfect-toast.git"
+  },
+  "homepage": "https://github.com/lofimichael/perfect-toast#readme",
+  "bugs": {
+    "url": "https://github.com/lofimichael/perfect-toast/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
