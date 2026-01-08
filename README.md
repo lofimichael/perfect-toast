@@ -2,6 +2,8 @@
 
 A Perfect Dark-inspired toast notification library with directional gradient sweep animations.
 
+[Live Demo](https://perfect-toast-chi.vercel.app/)
+
 ## Features
 
 - Directional color gradient reveal animation (like Perfect Dark's HUD)
